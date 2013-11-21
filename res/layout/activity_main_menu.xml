@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivoryblack"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainMenu" >
+
+    <Button
+        android:id="@+id/createReport"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/createReport" />
+
+    <Button
+        android:id="@+id/reports"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/reports" />
+
+    <Button
+        android:id="@+id/sendReports"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/sendReport" />
+
+    <Button
+        android:id="@+id/pairList"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/pairList"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/preferences"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/preferences" />
+
+    <Button
+        android:id="@+id/about"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/about" />
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/exit" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivoryblack"
+    android:orientation="vertical"
+    tools:context=".PairDevices" >
+
+    <TextView
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="@string/scanList"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <ListView
+        android:id="@+id/scanList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scan"
+        android:cacheColorHint="#00000000" />
+
+    <TextView
+        android:id="@+id/pair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/pairList"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <ListView
+        android:id="@+id/pairList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pair"
+        android:cacheColorHint="#00000000" />
+
+</RelativeLayout>

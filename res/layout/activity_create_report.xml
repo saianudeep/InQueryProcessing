@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivoryblack"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                android:text="@string/app"
+                android:textColor="@color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/application"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:inputType="text" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                android:text="@string/loc"
+                android:textColor="@color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:inputType="text" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                android:text="@string/time"
+                android:textColor="@color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:inputType="text" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/create"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/table"
+        android:layout_below="@id/table"
+        android:layout_margin="4dp"
+        android:text="@string/create" />
+
+</RelativeLayout>
